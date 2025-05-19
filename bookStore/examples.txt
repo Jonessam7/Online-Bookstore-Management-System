@@ -53,7 +53,3 @@ bookstore/
 │   ├── application.properties
 │
 └── pom.xml
-
-MONGODB:
-password - > PageNestBookStores123
-username -> jonessamueljs134
