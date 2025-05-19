@@ -1,0 +1,59 @@
+bookstore/
+│
+├── src/main/java/com/bookstore/
+│   ├── controller/
+│   │   ├── AuthController.java
+│   │   ├── BookController.java
+│   │   ├── CartController.java
+│   │   ├── OrderController.java
+│   │   └── PaymentController.java
+│   │
+│   ├── dto/
+│   │   ├── request/
+│   │   │   ├── RegisterRequest.java
+│   │   │   ├── LoginRequest.java
+│   │   │   ├── AddToCartRequest.java
+│   │   │   └── PlaceOrderRequest.java
+│   │   │
+│   │   └── response/
+│   │       ├── AuthResponse.java
+│   │       ├── BookResponse.java
+│   │       └── OrderResponse.java
+│   │
+│   ├── exception/
+│   │   ├── GlobalExceptionHandler.java
+│   │   └── ResourceNotFoundException.java
+│   │
+│   ├── model/
+│   │   ├── Book.java
+│   │   ├── User.java
+│   │   ├── CartItem.java
+│   │   ├── Order.java
+│   │   └── Payment.java
+│   │
+│   ├── repository/
+│   │   ├── BookRepository.java
+│   │   ├── UserRepository.java
+│   │   ├── OrderRepository.java
+│   │   └── PaymentRepository.java
+│   │
+│   ├── service/
+│   │   ├── AuthService.java
+│   │   ├── BookService.java
+│   │   ├── CartService.java
+│   │   ├── OrderService.java
+│   │   └── PaymentService.java
+│   │
+│   ├── util/
+│   │   └── JwtUtil.java
+│   │
+│   └── BookstoreApplication.java
+│
+├── src/main/resources/
+│   ├── application.properties
+│
+└── pom.xml
+
+MONGODB:
+password - > PageNestBookStores123
+username -> jonessamueljs134

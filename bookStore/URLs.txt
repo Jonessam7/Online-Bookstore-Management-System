@@ -1,0 +1,29 @@
+Signup
+POST http://localhost:8080/api/auth/signup
+
+Login
+POST http://localhost:8080/api/auth/login
+
+2. BookController
+Get all books
+GET http://localhost:8080/api/books
+
+3. CartController
+Add to cart
+POST http://localhost:8080/api/cart/add
+
+Get cart for user
+GET http://localhost:8080/api/cart/{userId}
+(replace {userId} with actual user ID)
+
+4. OrderController
+Place an order
+POST http://localhost:8080/api/orders/place
+
+Get all orders for user
+GET http://localhost:8080/api/orders/{userId}
+(replace {userId} with actual user ID)
+
+5. PaymentController
+Make a payment
+POST http://localhost:8080/api/payment
