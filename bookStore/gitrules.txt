@@ -1,0 +1,6 @@
+git clone 
+update the .gitignore
+git config --global core.autocrlf true
+git add .
+git commit -m " "
+git push origin main 
